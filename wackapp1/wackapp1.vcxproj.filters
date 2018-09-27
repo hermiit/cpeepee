@@ -21,10 +21,13 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="vector.h">
+    <ClInclude Include="woah.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="woah.h">
+    <ClInclude Include="vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

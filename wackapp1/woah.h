@@ -21,4 +21,12 @@ float hypo(float x, float y)
 	return sqrt(pow(x, 2) + pow(y, 2));
 }
 
-void div() { cout << "------------------------------" << endl; }
+float hypo3(float x, float y, float z)
+{
+	return sqrt(pow(x, 2) + pow(y, 2) + pow(z, 2));
+}
+
+void div() 
+{ 
+	cout << "------------------------------" << endl; 
+}

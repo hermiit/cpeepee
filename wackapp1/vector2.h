@@ -11,23 +11,26 @@ using namespace std;
 #define pi 3.14159265358979323846
 
 // classes
-class vector
+class vector2
 {
 public:
 	// vars
 	float x, y;
 
 	// construct
-	vector() { x = 0; y = 0; }
-	vector(float x1, float y1) { x = x1; y = y1; }
+	vector2() { x = 0; y = 0; }
+	vector2(float x1, float y1) { x = x1; y = y1; }
 
 	// functions
 	float mag() { return hypo(x, y); }
-	vector unit()
+	vector2 unit()
 	{
 		float uvx = x / mag();
 		float uvy = y / mag();
-		vector uvvec(uvx, uvy);
-		return uvvec;
+		return vector2(uvx,uvy);
+	}
+	vector2 scal(float alpha)
+	{
+		return vector2(x*alpha, y*alpha);
 	}
 };
